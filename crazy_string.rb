@@ -1,7 +1,7 @@
 def crazy_strings(a,b)
-  a=a.reverse.upcase
-  b=b.swapcase.gsub("S","Z").gsub("s","z")
+puts 'apple'.reverse.upcase
+puts  a=a.upcase.reverse
+puts  b=b.gsub("S","Z").gsub("s","z").upcase
 end
 
 crazy_strings("Hello", "Friends")
-end
