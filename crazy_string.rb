@@ -4,4 +4,4 @@ puts  b=b.gsub("S","Z").gsub("s","z").upcase
 a + b
 end
 
-crazy_strings("Apple", "")
+crazy_strings("Apple", "").downcase
